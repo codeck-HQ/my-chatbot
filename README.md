@@ -1,49 +1,18 @@
-# 🤖 My Chatbot
+# React + Vite
 
-A modern, interactive chatbot web application built with **React**, **Vite**, and **Tailwind CSS**.  
-This project demonstrates frontend architecture, UI state management, and dynamic message handling.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The chatbot uses keyword-based logic to generate varied responses and simulates real chat behavior such as typing indicators and Enter-to-send input.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## ✨ Features
+## React Compiler
 
-- 💬 Real-time chat interface
-- 🤖 Keyword-based bot responses with randomness
-- ⌨️ Send messages by pressing **Enter**
-- ⏳ Simulated bot typing indicator
-- 🎨 Fully styled with Tailwind CSS
-- 📱 Responsive layout
-- ⚡ Fast development using Vite
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
----
+Note: This will impact Vite dev & build performances.
 
-## 🛠 Tech Stack
+## Expanding the ESLint configuration
 
-- **React** – UI & state management
-- **Vite** – Development server & bundler
-- **Tailwind CSS** – Utility-first styling
-- **JavaScript (ES6+)**
-
----
-
-## 📂 Project Type
-
-This is a **frontend-only single-page application (SPA)**.  
-It does **not** include a backend or real AI model.
-
-The chatbot logic is implemented client-side using keyword detection and randomized responses.
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18+ recommended)
-- npm
-
-### Installation
-
-```bash
-npm install
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
